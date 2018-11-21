@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name" translatable="false">Academia Inteligente</string>
+    <string name="edit_login">Digite seu login</string>
+    <string name="button_send">Enviar</string>
+    <string name="log_usuario">Usuário</string>
+    <string name="senha">Senha</string>
+    <string name="cadastro">Não possuo conta</string>
+    <string name="titulo">Academia Inteligente</string>
+    <string name="novo">Novo</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="email">E-mail</string>
+    <string name="CampoNome">Nome Completo</string>
+    <string name="forgot">Esqueci a senha</string>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Exercicios">
+
+    <ScrollView
+        android:id="@+id/listaExer"
+        android:layout_width="371dp"
+        android:layout_height="match_parent"
+        android:scrollbarStyle="insideOverlay">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Tema1"
+                android:layout_width="142dp"
+                android:layout_height="wrap_content"
+                android:lineSpacingExtra="8sp"
+                android:padding="15dp"
+                android:text="Supino Reto"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:typeface="sans"
+                android:visibility="visible"
+                app:fontFamily="sans-serif" />
+
+            <TextView
+                android:id="@+id/texto1"
+                android:layout_width="match_parent"
+                android:layout_height="171dp"
+                android:gravity="fill_vertical|fill"
+                android:padding="10dp"
+                android:text="A prática de supino reto ou supino plano é de suma importância para quem está focado na musculação.  A modalidade conhecida como supino reto, é o exercício que mais caracteriza o levantamento de peso. Definitivamente é um dos principais para quem deseja fortalecer o peitoral.  Providencial para treinar grupos musculares entre eles, peitorais maiores; deltoide; coracobraquial e também tricípete braquial, o mecanismo do supino tem por objetivo ampliar a resistência muscular gradualmente."
+                android:textAllCaps="false"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:typeface="sans"
+                app:fontFamily="sans-serif" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="302dp"
+                android:layout_height="267dp"
+                android:adjustViewBounds="true"
+                android:visibility="visible"
+                app:srcCompat="@drawable/supino_reto" />
+
+            <TextView
+                android:id="@+id/Tema2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|center"
+                android:padding="10dp"
+                android:text="Leg Press"
+                android:textColor="@color/colorAccent"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/texto2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Leg press é um equipamento para a prática de exercícios de treinamento de peso individuais, na qual a pessoa empurra um peso para longe dela, usando as suas pernas.  Posicionando os pés no meio da máquina,se trabalha o quadríceps Posicionando apenas a ponta dos pés,se trabalha a panturrilha/batata da perna."
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="353dp"
+                android:layout_gravity="center_vertical|center"
+                android:padding="10dp"
+                app:srcCompat="@drawable/legpress" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

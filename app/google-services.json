@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1096417097866",
+    "firebase_url": "https://academia-inteligente.firebaseio.com",
+    "project_id": "academia-inteligente",
+    "storage_bucket": "academia-inteligente.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096417097866:android:99f71a9ac5e92d02",
+        "android_client_info": {
+          "package_name": "com.example.beatriz.academiainteligente"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1096417097866-5m4jboqc29c9adtd2ktmno76k06f8k58.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.beatriz.academiainteligente",
+            "certificate_hash": "9595e43bffe78d9fe338e2ec49dc9405d160a614"
+          }
+        },
+        {
+          "client_id": "1096417097866-dgc88h66iaeceeg7p05bc940fqo2mnvg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZdlBt55X0-WptIijYkasw1LfP7o2ow6o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1096417097866-dgc88h66iaeceeg7p05bc940fqo2mnvg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
